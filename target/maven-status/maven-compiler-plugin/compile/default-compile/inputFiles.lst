@@ -1,3 +1,10 @@
 C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\config\KafkaStockFetcherConfig.java
+C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\stockMonitorService\StockMonitorServiceImpl.java
 C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\StockMonitorApplication.java
 C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\listeners\StockMonitorKafkaListeners.java
+C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\stockMonitorDao\StockMonitorDao.java
+C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\stockMonitorService\StockMonitorService.java
+C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\stockMonitorModels\StockMonitor.java
+C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\stockMonitorRepository\StockMonitorRepository.java
+C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\stockMonitorDao\StockMonitorDaoImpl.java
+C:\Users\adhis\Downloads\fakeStockMonitor\src\main\java\com\kuebiko\stockmonitor\stockMonitorDto\StockMonitorDto.java
