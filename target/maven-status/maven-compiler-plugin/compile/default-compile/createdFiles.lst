@@ -1,0 +1,3 @@
+com\kuebiko\stockmonitor\listeners\StockMonitorKafkaListeners.class
+com\kuebiko\stockmonitor\StockMonitorApplication.class
+com\kuebiko\stockmonitor\config\KafkaStockFetcherConfig.class
