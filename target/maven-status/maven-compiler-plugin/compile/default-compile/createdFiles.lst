@@ -1,0 +1,10 @@
+com\kuebiko\stockmonitor\listeners\StockMonitorKafkaListeners.class
+com\kuebiko\stockmonitor\stockMonitorModels\StockMonitor.class
+com\kuebiko\stockmonitor\stockMonitorRepository\StockMonitorRepository.class
+com\kuebiko\stockmonitor\stockMonitorService\StockMonitorService.class
+com\kuebiko\stockmonitor\stockMonitorDao\StockMonitorDao.class
+com\kuebiko\stockmonitor\stockMonitorService\StockMonitorServiceImpl.class
+com\kuebiko\stockmonitor\stockMonitorDto\StockMonitorDto.class
+com\kuebiko\stockmonitor\stockMonitorDao\StockMonitorDaoImpl.class
+com\kuebiko\stockmonitor\StockMonitorApplication.class
+com\kuebiko\stockmonitor\config\KafkaStockFetcherConfig.class
