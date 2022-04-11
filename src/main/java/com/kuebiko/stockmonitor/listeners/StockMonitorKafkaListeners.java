@@ -21,17 +21,19 @@ public class StockMonitorKafkaListeners {
     public void listenGroupFoo(String message) throws ParseException {
 
         System.out.println("Received Message in Group 0: " + message);
+
+        StockMonitor stockMonitors = convertStringToModel(message);
+        stockMonitorDao.save(stockMonitors);
+
+    }
+
+    private StockMonitor convertStringToModel(String message) throws ParseException {
         String splitMessage[] = message.split("$");
         String symbol = splitMessage[0];
         Double price = Double.valueOf(splitMessage[1]);
         Date date = new SimpleDateFormat("mm/dd/yyyy")
                 .parse(splitMessage[2]);
-        StockMonitor stockMonitors = convertStringToModel(symbol, price, date);
-        stockMonitorDao.save(stockMonitors);
 
-    }
-
-    private StockMonitor convertStringToModel(String symbol, Double price, Date date) {
         StockMonitor stockMonitors = new StockMonitor();
         stockMonitors.setSymbol(symbol);
         stockMonitors.setPrice(price);
