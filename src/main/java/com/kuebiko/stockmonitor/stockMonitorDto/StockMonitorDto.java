@@ -1,17 +1,19 @@
 package com.kuebiko.stockmonitor.stockMonitorDto;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import java.util.Date;
 
 @Entity
 public class StockMonitorDto {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String symbol;
     private Double price;
-    private Date date;
+    private String date;
 
     public Long getId() {
         return id;
@@ -37,11 +39,11 @@ public class StockMonitorDto {
         this.price = price;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }

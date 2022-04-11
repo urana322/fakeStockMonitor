@@ -1,13 +1,11 @@
 package com.kuebiko.stockmonitor.stockMonitorModels;
 
-import java.util.Date;
-
 public class StockMonitor {
 
     private Long id;
     private String symbol;
     private Double price;
-    private Date date;
+    private String date;
 
     public Long getId() {
         return id;
@@ -33,11 +31,11 @@ public class StockMonitor {
         this.price = price;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }
