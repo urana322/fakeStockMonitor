@@ -12,8 +12,9 @@ public class StockMonitorServiceImpl implements StockMonitorService {
     StockMonitorDao stockMonitorDao;
 
     @Override
-    public StockMonitor findStock(String symbol) {
-        return null;
+    public StockMonitor monitorStock(String symbol) {
+
+        return stockMonitorDao.find(symbol);
     }
 
 }

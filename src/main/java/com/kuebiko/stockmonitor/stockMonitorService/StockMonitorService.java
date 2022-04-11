@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 @Service
 public interface StockMonitorService {
 
-    public StockMonitor findStock(String symbol);
+    public StockMonitor monitorStock(String symbol);
 
 }
