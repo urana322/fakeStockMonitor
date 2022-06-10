@@ -3,10 +3,10 @@ package com.kuebiko.stockmonitor;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class StockMonitorApplicationTests {
 
-	@Test
+//	@Test
 	void contextLoads() {
 	}
 
